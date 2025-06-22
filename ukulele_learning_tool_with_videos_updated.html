@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Ukulele Learning Tool</title>
+<style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+        h1, h2, h3 { color: #2c3e50; }
+        .chord { margin-bottom: 20px; }
+        .quiz, .lesson { margin-top: 30px; }
+        audio { display: block; margin-top: 5px; }
+        .level { border: 1px solid #ccc; padding: 15px; margin-bottom: 20px; border-radius: 8px; }
+        .strum-pattern { font-family: monospace; background: #f9f9f9; padding: 10px; border-radius: 5px; }
+        label { display: block; margin-top: 10px; }
+    </style>
+</head>
+<body>
+<h1>🎸 Ukulele Learning Tool</h1>
+<div class="level">
+<h2>Beginner Level</h2><video controls="True" width="480"><source src="beginner_tutorial.mp4" type="video/mp4"/>Your browser does not support the video tag.</video>
+<div class="lesson">
+<h3>Chords</h3>
+<div class="chord">C Major<br/>Finger 3 on 3rd fret A string<br/><audio controls="" src="C_major.mp3"></audio></div>
+<div class="chord">G Major<br/>Fingers 1, 2, 3 on 2nd and 3rd frets<br/><audio controls="" src="G_major.mp3"></audio></div>
+<div class="chord">F Major<br/>Fingers 1 and 2 on 1st and 2nd frets<br/><audio controls="" src="F_major.mp3"></audio></div>
+</div>
+<div class="lesson">
+<h3>Strumming Pattern</h3>
+<div class="strum-pattern">Down - Down - Up - Up - Down - Up</div>
+</div>
+<div class="quiz">
+<h3>Quiz</h3>
+<label>Which chord uses finger 3 on the 3rd fret of the A string?</label>
+<input name="q1" type="radio"/> C Major<br/>
+<input name="q1" type="radio"/> F Major<br/>
+<input name="q1" type="radio"/> G Major<br/>
+</div>
+</div>
+<div class="level">
+<h2>Intermediate Level</h2><video controls="True" width="480"><source src="intermediate_tutorial.mp4" type="video/mp4"/>Your browser does not support the video tag.</video>
+<div class="lesson">
+<h3>Chords</h3>
+<div class="chord">A Minor<br/>Finger 2 on 2nd fret G string<br/><audio controls="" src="A_minor.mp3"></audio></div>
+<div class="chord">D Major<br/>Fingers 1, 2, 3 on 2nd fret G, C, E strings<br/><audio controls="" src="D_major.mp3"></audio></div>
+</div>
+<div class="lesson">
+<h3>Strumming Pattern</h3>
+<div class="strum-pattern">Down - Up - Down - Up - Down</div>
+</div>
+<div class="quiz">
+<h3>Quiz</h3>
+<label>Which chord uses three fingers on the 2nd fret?</label>
+<input name="q2" type="radio"/> A Minor<br/>
+<input name="q2" type="radio"/> D Major<br/>
+</div>
+</div>
+<div class="level">
+<h2>Advanced Level</h2><video controls="True" width="480"><source src="advanced_tutorial.mp4" type="video/mp4"/>Your browser does not support the video tag.</video>
+<div class="lesson">
+<h3>Chords</h3>
+<div class="chord">E Minor<br/>Fingers 1, 2, 3 on 2nd, 3rd, 4th frets<br/><audio controls="" src="E_minor.mp3"></audio></div>
+</div>
+<div class="lesson">
+<h3>Strumming Pattern</h3>
+<div class="strum-pattern">Down - Mute - Up - Mute - Down - Up</div>
+</div>
+<div class="quiz">
+<h3>Quiz</h3>
+<label>Which chord uses three fingers in a diagonal shape?</label>
+<input name="q3" type="radio"/> E Minor<br/>
+<input name="q3" type="radio"/> C Major<br/>
+</div>
+</div>
+</body>
+</html>
